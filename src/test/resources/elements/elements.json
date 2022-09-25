@@ -1,0 +1,304 @@
+[
+  {
+    "key": "logo",
+    "value": "a[class='logo'][title='A101']",
+    "type": "css"
+  },
+  {
+    "key": "giyim&AksesuarKategorisi",
+    "value": "//div[@class='desktop-navigation']//a[@href='/giyim-aksesuar/' and @title='GİYİM & AKSESUAR']",
+    "type": "xpath"
+  },
+  {
+    "key": "cerezKabulEt",
+    "value": "CybotCookiebotDialogBodyLevelButtonLevelOptinAllowAll",
+    "type": "id"
+  },
+  {
+    "key": "kadınİçGiyimKategorisi",
+    "value": "//div[@class='categories']//a[@href='/giyim-aksesuar/kadin-ic-giyim/' and @title='Kadın İç Giyim']",
+    "type": "xpath"
+  },
+  {
+    "key": "dizAltıÇorapBölümü",
+    "value": "//div[@class='categories']//a[@href='/giyim-aksesuar/dizalti-corap/' and @title='Dizaltı Çorap']",
+    "type": "xpath"
+  },
+  {
+    "key": "ilkÜrun",
+    "value": "(//ul[@class='product-list-general']//article[contains(@class,'product-card')]/a)[1]",
+    "type": "xpath"
+  },
+  {
+    "key": "ürünRengi",
+    "value": ".selected-variant-text>span",
+    "type": "css"
+  },
+  {
+    "key": "giyim&AksesuarBaşlık",
+    "value": "//ol[@class='breadcrumb']//a[@href='/giyim-aksesuar/' and @title='GİYİM & AKSESUAR']",
+    "type": "xpath"
+  },
+  {
+    "key": "kadınİçGiyimBaşlık",
+    "value": "//ol[@class='breadcrumb']//a[@href='/giyim-aksesuar/kadin-ic-giyim/' and @title='Kadın İç Giyim']",
+    "type": "xpath"
+  },
+  {
+    "key": "dizAltıÇorapBaşlık",
+    "value": "//ol[@class='breadcrumb']//a[@href='/giyim-aksesuar/dizalti-corap/' and @title='Dizaltı Çorap']",
+    "type": "xpath"
+  },
+  {
+    "key": "sepeteEkleButonu",
+    "value": ".product-buy-info>.add-to-basket.button",
+    "type": "css"
+  },
+  {
+    "key": "sepetiGörüntüleButonu",
+    "value": "go-to-shop",
+    "type": "className"
+  },
+  {
+    "key": "sepetiOnaylaButonu",
+    "value": ".checkout-button[title='Sepeti Onayla']",
+    "type": "css"
+  },
+  {
+    "key": "üyeOlmadanDevamEtButonu",
+    "value": ".js-proceed-to-checkout-btn[title='ÜYE OLMADAN DEVAM ET']",
+    "type": "css"
+  },
+  {
+    "key": "eMailKutusu",
+    "value": "input[name='user_email']",
+    "type": "css"
+  },
+  {
+    "key": "devamEtButonu",
+    "value": "//button[@type='submit' and normalize-space(.)='DEVAM ET']",
+    "type": "xpath"
+  },
+  {
+    "key": "yeniAdresOluşturButonu",
+    "value": "//ul[@class='js-address-list-alternate ']/following-sibling::ul//a[@title='Yeni adres oluştur']",
+    "type": "xpath"
+  },
+  {
+    "key": "adresBaşlığıKutusu",
+    "value": "//label[normalize-space(.)='Adres Başlığı*']/input[@placeholder='Ev adresim, iş adresim vb.']",
+    "type": "xpath"
+  },
+  {
+    "key": "adKutusu",
+    "value": "input[name='first_name']",
+    "type": "css"
+  },
+  {
+    "key": "soyadKutusu",
+    "value": "input[name='last_name']",
+    "type": "css"
+  },
+  {
+    "key": "telefonNumarasıKutusu",
+    "value": "input[name='phone_number']",
+    "type": "css"
+  },
+  {
+    "key": "şehirKutusu",
+    "value": "select[name='city']",
+    "type": "css"
+  },
+  {
+    "key": "ilçeKutusu",
+    "value": "select[name='township']",
+    "type": "css"
+  },
+  {
+    "key": "mahalleKutusu",
+    "value": "select[name='district']",
+    "type": "css"
+  },
+  {
+    "key": "adresKutusu",
+    "value": "js-address-textarea",
+    "type": "className"
+  },
+  {
+    "key": "postaKoduKutusu",
+    "value": "js-post-code",
+    "type": "className"
+  },
+  {
+    "key": "kaydetButonu",
+    "value": "//button[normalize-space(.)='KAYDET']",
+    "type": "xpath"
+  },
+  {
+    "key": "kaydetVeDevamEtButonu",
+    "value": "//button[normalize-space(.)='Kaydet ve Devam Et']",
+    "type": "xpath"
+  },
+  {
+    "key": "masterpassİleÖdemeTexti",
+    "value": "//div[@class='card']/div[normalize-space(.)='Masterpass ile Ödeme']",
+    "type": "xpath"
+  },
+  {
+    "key": "siparisiTamamlaButonu",
+    "value": "order-complete",
+    "type": "className"
+  },
+  {
+    "key": "kargoSeçim",
+    "value": "js-checkout-cargo-item",
+    "type": "className"
+  },
+  {
+    "key": "ucNoktaMobil",
+    "value": "(//*[@class='android.widget.TextView'])[1]",
+    "type": "xpath"
+  },
+  {
+    "key": "giyimAksesuarMobil",
+    "value": "//*[@class='android.widget.TextView' and contains(@text,'GİYİM & AKSESUAR')]",
+    "type": "xpath"
+  },
+  {
+    "key": "kadinIcGiyimMobil",
+    "value": "//*[@class='android.widget.TextView' and contains(@text,'Kadın İç Giyim')]",
+    "type": "xpath"
+  },
+  {
+    "key": "dizaltiCorapMobil",
+    "value": "//*[@class='android.widget.TextView' and contains(@text,'Dizaltı Çorap')]",
+    "type": "xpath"
+  },
+  {
+    "key": "kadinSiyahCorapUrunuMobil",
+    "value": "//*[@class='android.widget.TextView' and contains(@text,'Penti Kadın 50 Denye Pantolon Çorabı Siyah')]",
+    "type": "xpath"
+  },
+  {
+    "key": "urunBasligiMobil",
+    "value": "(//*[@class='android.widget.TextView' and contains(@text,'Penti Kadın 50 Denye Pantolon Çorabı Siyah')])[2]",
+    "type": "xpath"
+  },
+  {
+    "key": "sepeteEkleMobil",
+    "value": "//*[@class='android.widget.TextView' and contains(@text,'SEPETE EKLE')]",
+    "type": "xpath"
+  },
+  {
+    "key": "sepeteGitMobil",
+    "value": "//*[@class='android.widget.TextView' and contains(@text,'SEPETE GİT')]",
+    "type": "xpath"
+  },
+  {
+    "key": "sepetiOnaylaMobil",
+    "value": "//*[@class='android.widget.TextView' and contains(@text,'SEPETİ ONAYLA')]",
+    "type": "xpath"
+  },
+  {
+    "key": "uyeOlmadanDevamEtMobil",
+    "value": "//*[@class='android.widget.TextView' and contains(@text,'ÜYE OLMADAN DEVAM ET')]",
+    "type": "xpath"
+  },
+  {
+    "key": "mailGirisiMobil",
+    "value": "//*[@class='android.widget.EditText' and contains(@text,'E-posta Adresiniz')]",
+    "type": "xpath"
+  },
+  {
+    "key": "gonderMobil",
+    "value": "//*[@class='android.widget.TextView' and contains(@text,'GÖNDER')]",
+    "type": "xpath"
+  },
+  {
+    "key": "kisiselVeriMobil",
+    "value": "(//*[@class='android.view.ViewGroup' and @index='1'])[4]",
+    "type": "xpath"
+  },
+  {
+    "key": "yeniAdresOlusturMobil",
+    "value": "//*[@class='android.widget.TextView' and contains(@text,'Yeni adres oluştur')]",
+    "type": "xpath"
+  },
+  {
+    "key": "adresBasligiMobil",
+    "value": "//*[@class='android.widget.TextView' and contains(@text,'Adres Başlığı*')]//following-sibling::android.widget.EditText",
+    "type": "xpath"
+  },
+  {
+    "key": "adMobil",
+    "value": "//*[@class='android.widget.TextView' and contains(@text,'Ad*')]//following-sibling::android.widget.EditText",
+    "type": "xpath"
+  },
+  {
+    "key": "soyadMobil",
+    "value": "//*[@class='android.widget.TextView' and contains(@text,'Soyad*')]//following-sibling::android.widget.EditText",
+    "type": "xpath"
+  },
+  {
+    "key": "cepTelefonuMobil",
+    "value": "//*[@class='android.widget.TextView' and contains(@text,'Cep Telefonu*')]//following-sibling::android.widget.EditText",
+    "type": "xpath"
+  },
+  {
+    "key": "ilMobil",
+    "value": "//*[@class='android.widget.TextView' and contains(@text,'İl*')]//following-sibling::android.view.View",
+    "type": "xpath"
+  },
+  {
+    "key": "ilceMobil",
+    "value": "//*[@class='android.widget.TextView' and contains(@text,'İlçe*')]//following-sibling::android.view.View",
+    "type": "xpath"
+  },
+  {
+    "key": "mahalleMobil",
+    "value": "//*[@class='android.widget.TextView' and contains(@text,'Mahalle*')]//following-sibling::android.view.View",
+    "type": "xpath"
+  },
+  {
+    "key": "adresMobil",
+    "value": "//*[@class='android.widget.TextView' and contains(@text,'Adres*')]//following-sibling::android.widget.EditText",
+    "type": "xpath"
+  },
+  {
+    "key": "kaydetButonuMobil",
+    "value": "//*[@class='android.widget.Button' and contains(@text,'KAYDET')]",
+    "type": "xpath"
+  },
+  {
+    "key": "izmirMobil",
+    "value": "//*[@resource-id='android:id/text1' and contains(@text,'İZMİR')]",
+    "type": "xpath"
+  },
+  {
+    "key": "bornovaMobil",
+    "value": "//*[@resource-id='android:id/text1' and contains(@text,'BORNOVA')]",
+    "type": "xpath"
+  },
+  {
+    "key": "cinarMahMobil",
+    "value": "//*[@resource-id='android:id/text1' and contains(@text,'ÇINAR MAH')]",
+    "type": "xpath"
+  },
+  {
+    "key": "kaydetVeDevamEtButonuMobil",
+    "value": "//*[@class='android.widget.Button' and contains(@text,'Kaydet ve Devam Et')]",
+    "type": "xpath"
+  },
+  {
+    "key": "siparisiTamamlaMobil",
+    "value": "//*[@class='android.widget.Button' and contains(@text,'Siparişi Tamamla')]",
+    "type": "xpath"
+  },
+  {
+    "key": "lutfenKartSecinMobil",
+    "value": "//*[@class='android.widget.TextView' and contains(@text,'Lütfen kart seçin veya kart bilgisi girin.')]",
+    "type": "xpath"
+  }
+]
+
+

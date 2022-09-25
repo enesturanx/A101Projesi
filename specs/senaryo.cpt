@@ -1,0 +1,186 @@
+Created by testinium on 5.08.2022
+
+This is a concept file with following syntax for each concept.
+# A101 web sitesine gidilir
+* "https://www.a101.com.tr/" url git
+* Su anki url "https://www.a101.com.tr/" ile ayni mi
+* "logo" elementinin gorunur olmasi kontrol edilir
+* "cerezKabulEt" elementinin gorunur olmasi kontrol edilir
+* "cerezKabulEt" elementine tikla
+
+# Giyim&Aksesuar kategorisine tıklanır
+* "giyim&AksesuarKategorisi" elementinin gorunur olmasi kontrol edilir
+* "giyim&AksesuarKategorisi" elementinin tiklanabilir olmasi kontrol edilir
+* "giyim&AksesuarKategorisi" elementine tikla
+
+
+
+# Kadın İç Giyim Kategorisine tıklanır
+* "kadınİçGiyimKategorisi" elementinin gorunur olmasi kontrol edilir
+* "kadınİçGiyimKategorisi" elementinin tiklanabilir olmasi kontrol edilir
+* "kadınİçGiyimKategorisi" elementine tikla
+* "kadınİçGiyimBaşlık" elementinin gorunur olmasi kontrol edilir
+
+
+# Diz altı çorap bölümüne girilir
+* "dizAltıÇorapBölümü" elementinin gorunur olmasi kontrol edilir
+* "dizAltıÇorapBölümü" elementinin tiklanabilir olmasi kontrol edilir
+* "dizAltıÇorapBölümü" elementine tikla
+* "dizAltıÇorapBaşlık" elementinin gorunur olmasi kontrol edilir
+
+
+# İlk ürün açılır
+* "ilkÜrun" elementinin gorunur olmasi kontrol edilir
+* "ilkÜrun" elementinin tiklanabilir olmasi kontrol edilir
+* "ilkÜrun" elementine tikla
+
+# Açılan ürünün siyah olduğu doğrulanır
+* "ürünRengi" elementinin gorunur olmasi kontrol edilir
+* "ürünRengi" elementinin text degeri "SİYAH" degerine esit mi
+
+# Sepete ekle butonuna tıklanır
+* "sepeteEkleButonu" elementinin gorunur olmasi kontrol edilir
+* "sepeteEkleButonu" elementinin tiklanabilir olmasi kontrol edilir
+* "sepeteEkleButonu" elementine tikla
+
+# Sepeti görüntüle butonuna tıklanır
+* "sepetiGörüntüleButonu" elementinin gorunur olmasi kontrol edilir
+* "sepetiGörüntüleButonu" elementinin tiklanabilir olmasi kontrol edilir
+* "sepetiGörüntüleButonu" elementine tikla
+
+# Sepeti onayla butonuna tıklanır
+* "sepetiOnaylaButonu" elementinin gorunur olmasi kontrol edilir
+* "sepetiOnaylaButonu" elementinin tiklanabilir olmasi kontrol edilir
+* "sepetiOnaylaButonu" elementine tikla
+
+# Üye olmadan devam et butonuna tıklanır
+* "üyeOlmadanDevamEtButonu" elementinin gorunur olmasi kontrol edilir
+* "üyeOlmadanDevamEtButonu" elementinin tiklanabilir olmasi kontrol edilir
+* "üyeOlmadanDevamEtButonu" elementine tikla
+
+# Mail ekranı gelir mail girilir ve devam et butonuna basılır
+* "eMailKutusu" elementinin gorunur olmasi kontrol edilir
+* "devamEtButonu" elementinin gorunur olmasi kontrol edilir
+* "eMailKutusu" li elemente random mail gir
+* "devamEtButonu" elementinin tiklanabilir olmasi kontrol edilir
+* "devamEtButonu" elementine tikla
+
+# Adres bölümünün element kontrolleri yapılır
+* "adresBaşlığıKutusu" elementinin gorunur olmasi kontrol edilir
+* "adKutusu" elementinin gorunur olmasi kontrol edilir
+* "soyadKutusu" elementinin gorunur olmasi kontrol edilir
+* "telefonNumarasıKutusu" elementinin gorunur olmasi kontrol edilir
+* "şehirKutusu" elementinin gorunur olmasi kontrol edilir
+* "ilçeKutusu" elementinin gorunur olmasi kontrol edilir
+* "mahalleKutusu" elementinin gorunur olmasi kontrol edilir
+* "adresKutusu" elementinin gorunur olmasi kontrol edilir
+* "kaydetButonu" elementinin gorunur olmasi kontrol edilir
+
+
+# Adres ekranı gelir yeni adres oluştura tıklanır ve adres oluşturulur
+* "yeniAdresOluşturButonu" elementinin gorunur olmasi kontrol edilir
+* "yeniAdresOluşturButonu" elementine tikla
+* Adres bölümünün element kontrolleri yapılır
+* "adresBaşlığıKutusu" elementine "evim" degerini yaz
+* "adKutusu" elementine "Enes" degerini yaz
+* "soyadKutusu" elementine "Turan" degerini yaz
+* "telefonNumarasıKutusu" elementine "5308673286" degerini yaz
+* "şehirKutusu" li select elementinin "MANİSA" textini sec
+* "250" milisaniye bekle
+* "ilçeKutusu" li select elementinin "YUNUSEMRE" textini sec
+* "250" milisaniye bekle
+* "mahalleKutusu" li select elementinin "YENİ MAHALLE MAH" textini sec
+* "adresKutusu" elementine "4754 SOKAK NO :13/1" degerini yaz
+* "kaydetButonu" elementinin gorunur olmasi kontrol edilir
+* "kaydetButonu" elementine tikla
+* "kargoSeçim" elementinin gorunur olmasi kontrol edilir
+* "kargoSeçim" elementine tikla
+* "kaydetVeDevamEtButonu" elementinin gorunur olmasi kontrol edilir
+* "kaydetVeDevamEtButonu" elementinin tiklanabilir olmasi kontrol edilir
+* "kaydetVeDevamEtButonu" elementine tikla
+
+# Ödeme ekranı gelir ödeme ekranında olduğu doğrulanır
+* "masterpassİleÖdemeTexti" elementinin gorunur olmasi kontrol edilir
+* "siparisiTamamlaButonu" elementinin gorunur olmasi kontrol edilir
+
+# Giyim&Aksesuar kategorisine tıklanır mobil
+* "ucNoktaMobil" elementinin gorunur olmasi kontrol edilir mobil
+* "ucNoktaMobil" elementine tikla mobil
+* "giyimAksesuarMobil" elementinin gorunur olmasi kontrol edilir mobil
+* "giyimAksesuarMobil" elementine tikla mobil
+
+# Kadın İç Giyim Kategorisine tıklanır mobil
+* "kadinIcGiyimMobil" elementinin gorunur olmasi kontrol edilir mobil
+* "kadinIcGiyimMobil" elementine tikla mobil
+
+# Diz altı çorap bölümüne girilir mobil
+* "dizaltiCorapMobil" elementinin gorunur olmasi kontrol edilir mobil
+* "dizaltiCorapMobil" elementine tikla mobil
+
+# İlk ürün açılır mobil
+* "kadinSiyahCorapUrunuMobil" elementinin gorunur olmasi kontrol edilir mobil
+* "kadinSiyahCorapUrunuMobil" elementine tikla mobil
+
+# Açılan ürünün siyah olduğu doğrulanır mobil
+* "urunBasligiMobil" elementinin gorunur olmasi kontrol edilir mobil
+* "urunBasligiMobil" elementinin text degeri "Siyah" degerini iceriyor mu mobil
+
+# Sepete ekle butonuna tıklanır mobil
+* "sepeteEkleMobil" elementinin gorunur olmasi kontrol edilir mobil
+* "sepeteEkleMobil" elementine tikla mobil
+
+# Sepete git butonuna tıklanır mobil
+* "sepeteGitMobil" elementinin gorunur olmasi kontrol edilir mobil
+* "sepeteGitMobil" elementine tikla mobil
+
+# Sepeti onayla butonuna tıklanır mobil
+* "sepetiOnaylaMobil" elementinin gorunur olmasi kontrol edilir mobil
+* "sepetiOnaylaMobil" elementine tikla mobil
+
+# Üye olmadan devam et butonuna tıklanır mobil
+* "uyeOlmadanDevamEtMobil" elementinin gorunur olmasi kontrol edilir mobil
+* "uyeOlmadanDevamEtMobil" elementine tikla mobil
+
+# Mail ekranı gelir mail girilir ve gönder butonuna basılır mobil
+* "mailGirisiMobil" elementinin gorunur olmasi kontrol edilir mobil
+* "mailGirisiMobil" li elemente random mail gir mobil
+* "kisiselVeriMobil" elementine tikla mobil
+* "gonderMobil" elementine tikla mobil
+
+# Adres ekranı gelir yeni adres oluştura tıklanır ve adres oluşturulur mobil
+* "yeniAdresOlusturMobil" elementinin gorunur olmasi kontrol edilir mobil
+* "yeniAdresOlusturMobil" elementine tikla mobil
+* "adresBasligiMobil" elementinin gorunur olmasi kontrol edilir mobil
+* "adresBasligiMobil" elementine "evim" degerini yaz mobil
+* "adMobil" elementinin gorunur olmasi kontrol edilir mobil
+* "adMobil" elementine "Enes" degerini yaz mobil
+* "soyadMobil" elementinin gorunur olmasi kontrol edilir mobil
+* "soyadMobil" elementine "Turan" degerini yaz mobil
+* "cepTelefonuMobil" elementinin gorunur olmasi kontrol edilir mobil
+* "cepTelefonuMobil" elementine "5308673286" degerini yaz mobil
+* "ilMobil" elementinin gorunur olmasi kontrol edilir mobil
+* "ilMobil" elementine tikla mobil
+* "izmirMobil" elementinin gorunur olmasi kontrol edilir mobil
+* "izmirMobil" elementine tikla mobil
+* "ilceMobil" elementinin gorunur olmasi kontrol edilir mobil
+* "ilceMobil" elementine tikla mobil
+* "bornovaMobil" elementinin gorunur olmasi kontrol edilir mobil
+* "bornovaMobil" elementine tikla mobil
+* scroll yap
+* "mahalleMobil" elementinin gorunur olmasi kontrol edilir mobil
+* "mahalleMobil" elementine tikla mobil
+* "cinarMahMobil" elementinin gorunur olmasi kontrol edilir mobil
+* "cinarMahMobil" elementine tikla mobil
+* "adresMobil" elementinin gorunur olmasi kontrol edilir mobil
+* "adresMobil" elementine "no: 101 Bornova/İzmir" degerini yaz mobil
+* "kaydetButonuMobil" elementinin gorunur olmasi kontrol edilir mobil
+* "kaydetButonuMobil" elementine tikla mobil
+* "1" bekle
+* "kaydetVeDevamEtButonuMobil" elementinin gorunur olmasi kontrol edilir mobil
+* "kaydetVeDevamEtButonuMobil" elementine tikla mobil
+
+# Ödeme ekranı gelir ödeme ekranında olduğu doğrulanır mobil
+* "siparisiTamamlaMobil" elementinin gorunur olmasi kontrol edilir mobil
+* "siparisiTamamlaMobil" elementine tikla mobil
+* "lutfenKartSecinMobil" elementinin gorunur olmasi kontrol edilir mobil
+
